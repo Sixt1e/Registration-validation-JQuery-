@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.form_p {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+input {
+    outline: none;
+}
+
+#registration {
+    margin-top: 140px;
+}
+
+#number, #phone, #email, #password {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: none;
+    font-size: 16px;
+    width: 650px;
+    height: 60px;
+    color: #ffffff;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.submit {
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+    font-size: 24px;
+    color: #ffffff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 300;
+    transition: 0.5s;
+}
+
+.submit:hover {
+    transform: scale(1.1);
+
+}
+
+
+input:focus {
+    color: #2be80e;
+    border-bottom: 1px solid #2be80e;
+}
+
+body {
+    background-color: #232323;
+}
+
+.error {
+    font-size: 12px;
+    color: red;
+    margin-left: 225px;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .container {
+        width: 960px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        width: 720px;
+    }
+
+    .error {
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 540px;
+    }
+}
